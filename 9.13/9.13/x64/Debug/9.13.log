@@ -1,0 +1,5 @@
+﻿  test.c
+D:\VS2022项目\9.13\9.13\test.c(58,18): warning C4013: “strerror”未定义；假设外部返回 int
+D:\VS2022项目\9.13\9.13\test.c(58,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+D:\VS2022项目\9.13\9.13\test.c(58,10): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+  9.13.vcxproj -> D:\VS2022项目\9.13\x64\Debug\9.13.exe
