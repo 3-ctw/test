@@ -1,0 +1,6 @@
+﻿  test.c
+D:\VS2022项目\9.18\9.18\test.c(19,11): warning C4477: “scanf”: 格式字符串“%c”需要类型“char *”的参数，但可变参数 4 拥有了类型“int”
+D:\VS2022项目\9.18\9.18\test.c(19,11): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 5 拥有了类型“int”
+D:\VS2022项目\9.18\9.18\test.c(20,12): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 5 拥有了类型“int”
+D:\VS2022项目\9.18\9.18\test.c(20,12): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 5 冲突
+  9.18.vcxproj -> D:\VS2022项目\9.18\x64\Debug\9.18.exe
