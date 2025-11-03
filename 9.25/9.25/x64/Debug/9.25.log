@@ -1,0 +1,5 @@
+﻿  test.c
+  test1.c
+D:\VS2022项目\9.25\9.25\test1.c(98,33): warning C4028: 形参 1 与声明不一致
+  正在生成代码...
+  9.25.vcxproj -> D:\VS2022项目\9.25\x64\Debug\9.25.exe
