@@ -1,0 +1,63 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include "test.h"
+
+//²âÊÔº¯Êý
+void test()
+{
+	SL* list=NULL;
+	//Í·²å
+	AddFrontList(&list, 1);
+	PrintList(list);
+
+	AddFrontList(&list, 2);
+	AddFrontList(&list, 3);
+	AddFrontList(&list, 4);
+	PrintList(list);
+	//Î²²å
+	AddBackList(&list, 5);
+	PrintList(list);
+	//ÄÚ²å
+	SL* pos = FindList(list, 4);
+	if (pos)
+	{
+		InsertList(&list, pos, 6);
+	}
+	PrintList(list);
+	pos = FindList(list, 5);
+	if (pos)
+	{
+		InsertList(&list, pos, 7);
+	}
+	PrintList(list);
+	//Í·É¾
+	PopFrontList(&list);
+	PrintList(list);
+	//Î²É¾
+	PopBackList(&list);
+	PrintList(list);
+	//ÄÚÉ¾
+	pos = FindList(list, 7);
+	if (pos)
+	{
+		PopInsertList(&list, pos);
+	}
+	PrintList(list);
+	pos = FindList(list, 4);
+	if (pos)
+	{
+		PopInsertList(&list, pos);
+	}
+	PrintList(list);
+	pos = FindList(list, 2);
+	if (pos)
+	{
+		PopInsertList(&list, pos);
+	}
+	PrintList(list);
+}
+//Ö÷º¯Êý//
+int main()
+{
+	test();
+	return 0;
+}
