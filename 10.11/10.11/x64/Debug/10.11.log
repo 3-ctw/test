@@ -1,0 +1,4 @@
+﻿  test1.c
+  LINK : 没有找到 D:\VS2022项目\10.11\x64\Debug\10.11.exe 或上一个增量链接没有生成它；正在执行完全链接
+x64\Debug\test.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  10.11.vcxproj -> D:\VS2022项目\10.11\x64\Debug\10.11.exe
